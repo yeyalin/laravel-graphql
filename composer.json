@@ -45,10 +45,12 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Folklore\\GraphQL\\ServiceProvider"
+                "Folklore\\GraphQL\\ServiceProvider",
+                "Folklore\\GraphQL\\Relay\\ServiceProvider"
             ],
             "aliases": {
-                "GraphQL": "Folklore\\GraphQL\\Support\\Facades\\GraphQL"
+                "GraphQL": "Folklore\\GraphQL\\Support\\Facades\\GraphQL",
+                "Relay": "Folklore\\GraphQL\\Relay\\Support\\Facades\\Relay"
             }
         }
     }
