@@ -41,5 +41,15 @@
         "psr-4": {
             "App\\": "tests/fixture/app/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Folklore\\GraphQL\\ServiceProvider"
+            ],
+            "aliases": {
+                "GraphQL": "Folklore\\GraphQL\\Support\\Facades\\GraphQL"
+            }
+        }
     }
 }
